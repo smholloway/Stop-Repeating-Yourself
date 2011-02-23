@@ -184,6 +184,7 @@ div#yield {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  line-height: 150%;
 }
 
 div#footer {
@@ -193,4 +194,26 @@ div#footer {
   color: #58595B;
   font-size: 11px;
   text-align: center;
+}
+span.noshow {
+  float:right;
+  font-size:.001px;
+  color:transparent;
+  display:inline-block;
+  width:0px;
+}
+div#about {
+}
+div.bio {
+  margin-bottom: 10px;
+}
+div.bio_name {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+div.bio_education {
+  font-style: italic;
+}
+div.bio_blurb {
+  margin-top: 5px;
 }
