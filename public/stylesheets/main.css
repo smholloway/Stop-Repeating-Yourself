@@ -17,6 +17,9 @@ html {
   color: #333;
   height: 100%;
 }
+ul, ol {
+  list-style-position: inside;
+}
 
 div#site {
   width: 960px;
