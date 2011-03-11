@@ -221,3 +221,10 @@ div.bio_education {
 div.bio_blurb {
   margin-top: 5px;
 }
+
+.notice {
+  color: green;
+}
+.alert {
+  color: red;
+}
