@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  before_filter :authenticate_user!
+  before_filter :admin_check
 
   # GET /products
   # GET /products.xml
@@ -82,4 +82,5 @@ class ProductsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
 end
