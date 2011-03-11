@@ -1,5 +1,9 @@
 StopRepeatingYourself::Application.routes.draw do
 
+  resources :products
+
+  devise_for :users
+
   match 'home' => 'home#index', :via => :get
   match 'about' => 'home#about', :via => :get
   match 'contact' => 'home#contact', :via => :get
