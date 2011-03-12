@@ -103,6 +103,9 @@ div#logo {
 div#name{
   float: left;
 }
+div#avatar {
+  float: right;
+}
 div#topnav {
   margin-top: 15px;
   background: #F0EBE1;

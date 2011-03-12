@@ -37,6 +37,11 @@
       <div id="slogan">
         <%= link_to "Project Speak Easy", root_path %>
       </div> <!-- name -->
+      <% if user_signed_in? %>
+      <div id="avatar">
+        <%= gravatar_for current_user.email %>
+      </div>
+      <% end %>
       <div id="topnav">
         <ul>
           <% if user_signed_in? %>
