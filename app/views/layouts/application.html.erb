@@ -38,7 +38,7 @@
         <%= link_to "Project Speak Easy", root_path %>
       </div> <!-- name -->
       <% if user_signed_in? %>
-      <div id="avatar">
+      <div id="avatar" style="display:none">
         <%= gravatar_for current_user.email %>
       </div>
       <% end %>
